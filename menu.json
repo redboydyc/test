@@ -1,0 +1,24 @@
+{
+	"1": {
+		"Squid Proxy": {
+			"1": {"Squid Proxy Kur": "squid(install=True)"},
+			"2": {"Port Degistir": "squid(change_port=True)"},
+			"3": {"Sifre Koy": "squid(passwd='set')"},
+			"4": {"Sifre Degistir": "squid(passwd='change')"},
+			"5": {"Sifre Kaldir": "squid(passwd='remove')"},
+			"6": {"Squid Proxy Kaldir": "installer('squid', remove=True)"},
+			"0": {"Geri": null}
+		}
+	},
+	
+	"2": {
+		"DropBear": {
+			"1": {"DropBear Kur": "dropbear(install=True)"},
+			"2": {"DropBear Port Degistir": "dropbear()"},
+			"3": {"DropBear Kaldir": "installer('dropbear', remove=True)"},
+			"0": {"Geri": null}
+		}
+	},
+	
+	"0": {"Exit": null}
+}
